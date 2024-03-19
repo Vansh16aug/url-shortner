@@ -14,7 +14,7 @@
 <body>
     <h1>Url Shortner</h1>
     <% if (locals.id) { %>
-     <p>URL Generated: https://localhost:8001/url/<%=id %></p>
+     <p>URL Generated: https://localhost:8001/<%=id %></p>
     <% } %>
     <div>
         <form method="POST" action="/url">
