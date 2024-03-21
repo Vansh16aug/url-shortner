@@ -13,8 +13,10 @@
 </head>
 <body>
     <h1>Url Shortner</h1>
+    <h2><%= email %> </h2>
+    <h3><%= role %></h3>
     <% if (locals.id) { %>
-     <p>URL Generated: https://localhost:8001/<%=id %></p>
+     <p>URL Generated: http://localhost:8001/<%=id %></p>
     <% } %>
     <div>
         <form method="POST" action="/url">
